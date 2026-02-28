@@ -1,0 +1,130 @@
+/* Style dasar atau tema */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4e2d8;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #6a4c34;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header nav button {
+  margin: 0 5px;
+}
+```Saya tidak dapat langsung membuat repositori baru di GitHub Anda. Namun, berikut langkah untuk membuatnya:
+
+1. Masuk ke akun GitHub Anda.
+2. Klik ikon "+" di sudut kanan atas.
+3. Pilih "New repository."
+4. Masukkan nama repositori: **daily-activity-website**.
+5. Pilih visibilitas (public atau private).
+6. Klik "Create repository."
+
+Setelah repositori dibuat, beri tahu saya agar saya dapat membantu Anda mengunggah kode untuk proyek ini. Berikut adalah kode lengkap untuk website Anda: 
+
+---
+
+### **1. File `index.html`**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Activity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Daily Activity</h1>
+    <nav>
+      <ul>
+        <li><a href="#ramadhan">Schedule Finsen - Ramadhan</a></li>
+        <li><a href="#everyday">Schedule Finsen - Everyday</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="ramadhan">
+      <h2>Ramadhan</h2>
+      <h3>Hari Sekolah</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Waktu</th>
+            <th>Aktivitas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>03.00</td><td>Bangun</td></tr>
+          <tr><td>03.00-01.00</td><td>Sahur</td></tr>
+          <tr><td>09.00-09.30</td><td>Baca buku</td></tr>
+          <tr><td>09.30-05.00</td><td>Mandi dan Sholat Subuh</td></tr>
+          <tr><td>05.00-05.30</td><td>Review materi TKA</td></tr>
+          <tr><td>05.30-06.00</td><td>Berangkat sekolah</td></tr>
+          <tr><td>06.00-13.00</td><td>Pulang Sekolah</td></tr>
+          <tr><td>13.00-15.00</td><td>Tidur (Relating)</td></tr>
+          <tr><td>15.00-15.30</td><td>Shalat Ashor</td></tr>
+          <tr><td>15.30-17.30</td><td>Olahraga tinggi</td></tr>
+          <tr><td>17.30-18.00</td><td>Mandi dan menunggu buka</td></tr>
+          <tr><td>18.00-19.00</td><td>Shalat maghrib, sudah buka</td></tr>
+          <tr><td>19.00-19.30</td><td>Baca buku</td></tr>
+          <tr><td>19.30-21.00</td><td>Shalat isya dan Terawih</td></tr>
+          <tr><td>21.00-22.00</td><td>Belajar TKA</td></tr>
+          <tr><td>22.00</td><td>Tidur</td></tr>
+        </tbody>
+      </table>
+      <h3>Hari Libur</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Waktu</th>
+            <th>Aktivitas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>03.00</td><td>Bangun</td></tr>
+          <tr><td>03.00-09.00</td><td>Sahur</td></tr>
+          <tr><td>09.00-09.30</td><td>Baca buku</td></tr>
+          <tr><td>09.30-06.00</td><td>Tidur lagi dan sudah shalat subuh</td></tr>
+          <tr><td>06.00-07.00</td><td>Olahraga tinggi</td></tr>
+          <tr><td>07.00-07.30</td><td>Mandi</td></tr>
+          <tr><td>07.30-08.00</td><td>Belajar TKA Review materi</td></tr>
+          <tr><td>08.00-08.30</td><td>Berangkat Les</td></tr>
+          <tr><td>08.30-11.30</td><td>Pulang Les</td></tr>
+          <tr><td>11.30-12.00</td><td>Istirahat sebentar</td></tr>
+          <tr><td>12.00-12.30</td><td>Shalat Dzuhur</td></tr>
+          <tr><td>12.30-14.30</td><td>Belajar TKA dan baca buku</td></tr>
+          <tr><td>14.30-15.00</td><td>Istirahat</td></tr>
+          <tr><td>15.00-15.30</td><td>Shalat Ashar</td></tr>
+          <tr><td>15.30-17.30</td><td>Olahraga tinggi</td></tr>
+          <tr><td>17.30-18.00</td><td>Mandi dan menunggu buka</td></tr>
+          <tr><td>18.00-19.00</td><td>Shalat maghrib, sudah buka</td></tr>
+          <tr><td>19.00-19.30</td><td>Baca buku</td></tr>
+          <tr><td>19.30-21.00</td><td>Shalat isya dan Terawih</td></tr>
+          <tr><td>21.00-22.00</td><td>Belajar bahasa inggris</td></tr>
+          <tr><td>22.00</td><td>Tidur</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="everyday">
+      <h2>Everyday</h2>
+      <p>Rest</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Finsen</p>
+  </footer>
+</body>
+</html>
