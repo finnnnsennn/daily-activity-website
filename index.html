@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Activity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Daily Activity</h1>
+    <nav>
+      <ul>
+        <li><a href="#" class="sheet-link active" data-sheet="ramadhan">Schedule Finsen - Ramadhan</a></li>
+        <li><a href="#" class="sheet-link" data-sheet="everyday">Schedule Finsen - Everyday</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Ramadhan Section -->
+    <section id="ramadhan" class="sheet-section">
+      <h2>Bulan Ramadhan</h2>
+      <h3>Hari Sekolah</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Waktu</th>
+            <th>Aktivitas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>03.00</td><td>Bangun</td></tr>
+          <tr><td>03.00-01.00</td><td>Sahur</td></tr>
+          <tr><td>09.00-09.30</td><td>Baca buku</td></tr>
+          <tr><td>09.30-05.00</td><td>Mandi dan Sholat Subuh</td></tr>
+          <!-- ... Tambah data lainnya sesuai kebutuhan -->
+        </tbody>
+      </table>
+      <h3>Hari Libur</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Waktu</th>
+            <th>Aktivitas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>03.00</td><td>Bangun</td></tr>
+          <tr><td>03.00-09.00</td><td>Sahur</td></tr>
+          <tr><td>09.00-09.30</td><td>Baca buku</td></tr>
+          <!-- ... Tambah data lainnya sesuai kebutuhan -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Everyday Section -->
+    <section id="everyday" class="sheet-section hidden">
+      <h2>Everyday Schedule</h2>
+      <p>Rest</p>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2026 Schedule Finsen</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
